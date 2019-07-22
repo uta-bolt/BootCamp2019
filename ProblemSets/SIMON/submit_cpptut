@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --ntasks=1 ## how many cpus used here
+
+#SBATCH --job-name=hidaho
+
+#SBATCH --time=00:02:00 ## walltime requested
+
+#SBATCH --output=hidaho.out ## output file
+
+#SBATCH --error=hidaho.err ## error
+#SBATCH --partition=broadwl
+### executable
+./hidaho.exec

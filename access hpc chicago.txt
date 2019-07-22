@@ -1,0 +1,40 @@
+in git bash
+ssh rccguest8457@midway2.rcc.uchicago.edu
+say yes 
+touch the key
+
+
+
+module load git/2.10
+
+cat shows files don't have to leave
+vim: have to leave
+
+
+first install python
+then install ipopt thing
+
+/sbin/ip route get 8.8.8.8 | awk '{print $NF;exit}'
+jupyter-notebook --no-browser --ip=10.50.221.13
+q! exits vi
+sinteractive --time=06:00:00
+
+
+
+###############################################
+CPP
+#To compile makefile: 
+make makefile_helloworld__cpp
+#TO compile directly: 
+g++ exercise4.cpp -o exercise4.cpp.exec
+
+#Need to convert for windows: 
+dos2unix submit_cpptut.sh
+#To submit job:
+sbatch submit_cpptut.sh
+
+
+
+
+##########################################
+
