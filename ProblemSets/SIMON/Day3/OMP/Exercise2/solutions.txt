@@ -1,0 +1,1 @@
+For small vector sizes, it actually takes longer when we parallelize. For larger vector sizes it's much faster when we parallelize. 

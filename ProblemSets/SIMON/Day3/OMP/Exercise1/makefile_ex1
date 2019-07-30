@@ -1,0 +1,12 @@
+#######################################################################
+all: normalize_vec_ex1.exec
+#######################################################################
+
+## Example 1
+normalize_vec_ex1.exec : normalize_vec_ex1.cpp
+	g++ normalize_vec_ex1.cpp -fopenmp -o normalize_vec_ex1.exec
+
+#######################################################################
+
+clean :
+	rm -f *.exec

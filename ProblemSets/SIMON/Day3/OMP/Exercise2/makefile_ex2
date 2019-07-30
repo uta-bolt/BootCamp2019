@@ -1,0 +1,17 @@
+#######################################################################
+all: dot_prod_ex2.exec dot_prod_ex2_v3.exec
+#######################################################################
+
+## Example 1
+dot_prod_ex2.exec : dot_prod_ex2.cpp
+	g++ dot_prod_ex2.cpp -fopenmp -o dot_prod_ex2.exec
+
+
+## Example 1
+dot_prod_ex2_v3.exec : dot_prod_ex2_v3.cpp
+	g++ dot_prod_ex2_v3.cpp -fopenmp -o dot_prod_ex2_v3.exec
+
+#######################################################################
+
+clean :
+	rm -f *.exec
